@@ -1,0 +1,72 @@
+body{
+    margin:0px;
+    padding: 0px;
+}
+.container {
+  margin-top: 80px;
+  display: flex;
+  flex-wrap:wrap;
+  justify-content: center;
+  height: 100%;
+  background-image: linear-gradient(280deg, #f4c2f2 40%, #e4e8af 50%);
+  flex-flow: row wrap;
+}
+
+
+.item-0, .item-1, .item-2, .item-3, .item-4,.item-5,.item-6,.item-7,.item-8,.item-9,.item-10{
+  box-sizing: border-box;
+  float: left;  
+  width: 400px;
+  font-size: 22px;
+  color: rgb(17, 1, 1);
+  background-image: linear-gradient(250deg, #f6f340 15%, #fe51c4 74%);
+  border: 3.5px solid #0b0000;
+  padding: 10px;
+  margin: 40px 12px;
+  font-weight: 500;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  border-radius: 10%;
+  box-shadow: inset 4px 4px 25px 2px rgb(252, 56, 56);
+  display: flex;
+  flex-direction: column;
+  justify-content: top;
+  align-items: center;
+}
+
+@media only screen and (max-device-width: 585px){
+  .item-0, .item-1, .item-2, .item-3, .item-4,.item-5,.item-6,.item-7,.item-8,.item-9,.item-10{
+    width: 96%;
+  }
+}
+
+
+.nav{
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items:center;
+  color: azure;
+  background-image: linear-gradient(315deg, #eb1919 0%, #2010cd 74%);
+  width: 100vw;
+  height: 80px;
+  top: 0px;
+  right: 0px;
+  left: 0px;
+  z-index: 1;
+  font-size: 26px;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.item-2{
+    height: 480px;
+}
+.item-1{
+    height: 500px;
+}
+.item-6{
+    height:400px;
+}
+img{
+    width: 55px;
+    float: right;
+    margin-left: 15px;
+}
